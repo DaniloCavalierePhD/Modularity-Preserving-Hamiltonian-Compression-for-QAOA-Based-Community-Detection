@@ -12,7 +12,7 @@ Community detection can be formulated as a modularity maximization problem and s
 This work investigates a family of Hamiltonian compression approaches designed to reduce circuit complexity while preserving the structural information required for community detection. The general idea is to start from the full modularity Hamiltonian and apply a compression step that removes, approximates, or reweights less informative interactions while preserving the most relevant structural information of the graph. The resulting compressed Hamiltonian contains fewer effective terms, leading to shallower QAOA circuits and lower computational cost while maintaining competitive community detection performance.
 
 <p align="center">
-  <img src="figures/compression_workflow.png" width="700">
+  <img src="ToC.jpg" width="700">
 </p>
 
 The proposed approaches include:
