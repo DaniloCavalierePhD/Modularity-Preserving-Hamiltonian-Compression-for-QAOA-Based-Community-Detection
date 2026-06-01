@@ -13,18 +13,22 @@ This work investigates a family of Hamiltonian compression techniques designed t
 
 The proposed approaches include:
 
-- Magnitude-based sparsification
-- Top-K filtering
-- Energy-based sparsification
-- Low-rank spectral projection
-- Penalty-augmented modularity formulations
+- **Magnitude-based sparsification**: removes weak modularity couplings whose magnitude falls below a predefined threshold, reducing the number of ZZ interactions while preserving the strongest structural relationships.
+
+- **Top-K filtering**: retains only the K most significant modularity couplings, providing direct control over the Hamiltonian size and circuit complexity.
+
+- **Energy-based sparsification**: preserves only the interactions that contribute most to the overall energy of the modularity matrix, aiming to maximize information retention under a reduced interaction budget.
+
+- **Low-rank spectral projection**: approximates the modularity matrix using a small number of dominant eigencomponents, yielding a compressed Hamiltonian that captures the main spectral structure of the graph.
+
+- **Penalty-augmented modularity formulations**: incorporate additional penalty terms to encourage balanced community assignments and improve optimization behaviour without modifying the original graph structure.
 
 The methods are evaluated against:
 
 - Classical Louvain community detection
 - Full modularity Hamiltonian encoding (QAOA baseline)
 
-using multiple graph quality metrics, runtime measurements, scalability experiments, and noisy simulations.
+The evalaution is carried out by using multiple graph quality metrics, runtime measurements, scalability experiments, and noisy simulations.
 
 ---
 
