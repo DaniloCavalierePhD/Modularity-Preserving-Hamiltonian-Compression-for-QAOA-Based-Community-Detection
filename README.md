@@ -9,7 +9,11 @@ This repository contains the implementation and experimental material accompanyi
 
 Community detection can be formulated as a modularity maximization problem and solved using the Quantum Approximate Optimization Algorithm (QAOA). However, directly encoding the modularity matrix produces dense Hamiltonians containing O(n²) two-qubit interactions, resulting in circuits that are difficult to execute on simulators and near-term quantum hardware.
 
-This work investigates a family of Hamiltonian compression techniques designed to reduce circuit complexity while preserving the structural information required for community detection.
+This work investigates a family of Hamiltonian compression approaches designed to reduce circuit complexity while preserving the structural information required for community detection. The general idea is to start from the full modularity Hamiltonian and apply a compression step that removes, approximates, or reweights less informative interactions while preserving the most relevant structural information of the graph. The resulting compressed Hamiltonian contains fewer effective terms, leading to shallower QAOA circuits and lower computational cost while maintaining competitive community detection performance.
+
+<p align="center">
+  <img src="figures/compression_workflow.png" width="700">
+</p>
 
 The proposed approaches include:
 
