@@ -61,15 +61,11 @@ Contains the Jupyter notebook implementing:
 - Noise robustness evaluation
 - Plot generation
 
-### `paper/`
+### `paper`
 
-Contains the manuscript associated with the project.
+The full paper can be accessed online on: 
 
-### `figures/`
-
-Contains the figures generated during the experimental evaluation.
-
-### `data/`
+### `data`
 
 The experiments use graphs from the **SPINOS** dataset.
 
