@@ -63,7 +63,7 @@ Contains the Jupyter notebook implementing:
 
 ### `paper`
 
-The full paper can be accessed online on: 
+The full paper is currently under publication and will be added to this repository as soon as it becomes publicly available.
 
 ### `data`
 
@@ -90,10 +90,11 @@ Main dependencies include:
 - Pandas
 - Scikit-learn
 
-The experiemnts present in the paper used Pennylane backend called Ligthning.gpu to run QAOA on 20+-node-graphs, you can find information on how to install it at this address: 
+The experiments reported in the paper were executed using the PennyLane **Lightning.gpu** backend to efficiently run QAOA on graphs with 20 or more nodes. Installation instructions for the backend are available here:
 
-All the necessary dependencies are present in this repositiory, so you can install them with:
+https://docs.pennylane.ai/projects/lightning/en/stable/lightning_gpu/installation.html
+
+All required Python dependencies are listed in the `requirements.txt` file and can be installed with:
 
 ```bash
 pip install -r requirements.txt
-
