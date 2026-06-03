@@ -90,3 +90,10 @@ Main dependencies include:
 - Pandas
 - Scikit-learn
 
+The experiemnts present in the paper used Pennylane backend called Ligthning.gpu to run QAOA on 20+-node-graphs, you can find information on how to install it at this address: 
+
+All the necessary dependencies are present in this repositiory, so you can install them with:
+
+```bash
+pip install -r requirements.txt
+
