@@ -50,13 +50,15 @@ The experimental results show that:
 
 ## Repository Contents
 
-### `notebooks/`
+### `notebook`
 
 Contains the Jupyter notebook implementing:
 
 - Hamiltonian construction
 - QAOA optimization
+- Implementations of the approaches reported above
 - Community detection experiments
+- Method benchmark
 - Scalability analysis
 - Noise robustness evaluation
 - Plot generation
